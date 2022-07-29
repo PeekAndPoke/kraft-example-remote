@@ -8,9 +8,9 @@
                                                              
 ```
 
-This is the 'router' demo project for [KRAFT](https://github.com/PeekAndPoke/kraft)
+This is the 'remote' demo project for [KRAFT](https://github.com/PeekAndPoke/kraft)
 
-It will show how to set up an app with a router and multiple pages.
+It shows how to consume rest apis.
 
 You can run and play with it:
 

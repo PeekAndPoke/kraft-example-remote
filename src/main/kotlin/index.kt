@@ -23,5 +23,5 @@ fun main() {
     }
 
     // Tell the router to resolve the current route on app start.
-    router.resolveCurrentRoute()
+    router.navigateToWindowUri()
 }

@@ -6,8 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.remote.main.iml" filepath="$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.remote.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.remote.test.iml" filepath="$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.remote.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.main~1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.test~1.iml" filepath="$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.test~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/remote.iml" filepath="$PROJECT_DIR$/.idea/modules/remote.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/remote.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/remote.buildSrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/remote.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/remote.buildSrc.main.iml" />

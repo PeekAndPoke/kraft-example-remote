@@ -3,12 +3,15 @@ package io.peekandpoke.kraft.examples.helloworld
 import de.peekandpoke.kraft.Kraft
 import de.peekandpoke.kraft.addons.routing.router
 import de.peekandpoke.kraft.vdom.preact.PreactVDomEngine
+import io.peekandpoke.kraft.examples.helloworld.pages.NotFoundPage
 import kotlinx.browser.document
 import org.w3c.dom.HTMLElement
 
 val routes = Routes()
 val router = router {
     mount(routes)
+
+    catchAll { NotFoundPage() }
 }
 
 fun main() {

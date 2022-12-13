@@ -9,15 +9,15 @@ object Deps {
     }
 
     // Kotlin ////////////////////////////////////////////////////////////////////////////////////
-    const val kotlinVersion = "1.7.20"
+    const val kotlinVersion = "1.7.21"
     // ///////////////////////////////////////////////////////////////////////////////////////////
 
     // https://search.maven.org/search?q=g:io.peekandpoke.ultra%20AND%20a:commonmp
-    private const val ultra_version = "0.58.0"
+    private const val ultra_version = "0.60.0"
     const val ultra_common_mp = "io.peekandpoke.ultra:commonmp:$ultra_version"
 
     // https://search.maven.org/search?q=g:io.peekandpoke.kraft%20AND%20a:core
-    private const val kraft_version = "0.23.0"
+    private const val kraft_version = "0.24.1"
     const val kraft_core = "io.peekandpoke.kraft:core:$kraft_version"
 
     // // NPM dependencies /////////////////////////////////////////////////////////////////////////
@@ -41,8 +41,8 @@ object Deps {
         const val logback_classic = "ch.qos.logback:logback-classic:$logback_version"
 
         // https://mvnrepository.com/artifact/io.kotest/kotest-common
-        const val kotest_plugin_version = "5.5.0"
-        const val kotest_version = "5.5.0"
+        const val kotest_plugin_version = "5.5.4"
+        const val kotest_version = "5.5.4"
 
         const val kotest_assertions_core = "io.kotest:kotest-assertions-core:$kotest_version"
         const val kotest_framework_api = "io.kotest:kotest-framework-api:$kotest_version"

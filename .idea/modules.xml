@@ -5,9 +5,15 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.remote.iml" filepath="$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.remote.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.remote.main.iml" filepath="$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.remote.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.remote.test.iml" filepath="$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.remote.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.iml" filepath="$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.buildSrc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kraft-example-remote.remote.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-remote.remote.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-remote.remote.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-remote.remote.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-remote.remote.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-remote.remote.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-remote.remote.buildSrc.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/remote.iml" filepath="$PROJECT_DIR$/.idea/modules/remote.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/remote.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/remote.buildSrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/remote.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/remote.buildSrc.main.iml" />

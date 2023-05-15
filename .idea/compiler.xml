@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="kraft-example-remote.remote" target="17" />
+      <module name="peekandpoke.kraft-example-remote.remote.buildSrc" target="17" />
+      <module name="peekandpoke.kraft-example-remote.remote.buildSrc.main" target="17" />
+      <module name="peekandpoke.kraft-example-remote.remote.buildSrc.main~1" target="17" />
+      <module name="peekandpoke.kraft-example-remote.remote.buildSrc.test" target="17" />
+      <module name="peekandpoke.kraft-example-remote.remote.buildSrc.test~1" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

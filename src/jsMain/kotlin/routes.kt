@@ -1,7 +1,10 @@
 package io.peekandpoke.kraft.examples.helloworld
 
-import de.peekandpoke.kraft.addons.routing.*
-import io.peekandpoke.kraft.examples.helloworld.pages.*
+import de.peekandpoke.kraft.routing.RouterBuilder
+import de.peekandpoke.kraft.routing.Static
+import io.peekandpoke.kraft.examples.helloworld.pages.AgifyIoPage
+import io.peekandpoke.kraft.examples.helloworld.pages.CatFactNinjaPage
+import io.peekandpoke.kraft.examples.helloworld.pages.HomePage
 
 class Routes {
     val home = Static("")

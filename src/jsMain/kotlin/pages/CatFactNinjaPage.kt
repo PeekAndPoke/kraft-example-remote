@@ -3,11 +3,11 @@ package io.peekandpoke.kraft.examples.helloworld.pages
 import de.peekandpoke.kraft.components.NoProps
 import de.peekandpoke.kraft.components.PureComponent
 import de.peekandpoke.kraft.components.comp
-import de.peekandpoke.kraft.components.onClick
-import de.peekandpoke.kraft.semanticui.noui
-import de.peekandpoke.kraft.semanticui.ui
 import de.peekandpoke.kraft.utils.launch
 import de.peekandpoke.kraft.vdom.VDom
+import de.peekandpoke.ultra.html.onClick
+import de.peekandpoke.ultra.semanticui.noui
+import de.peekandpoke.ultra.semanticui.ui
 import io.peekandpoke.kraft.examples.helloworld.apis.catfactninja.CatFactNinja
 import kotlinx.html.Tag
 import kotlinx.html.a
@@ -69,7 +69,7 @@ class CatFactNinjaPage(ctx: NoProps) : PureComponent(ctx) {
         ui.header H2 { +"Facts" }
 
         ui.divided.very.relaxed.list {
-            facts.forEach {fact ->
+            facts.forEach { fact ->
                 noui.item {
                     +fact.fact
                 }

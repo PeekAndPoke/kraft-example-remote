@@ -3,9 +3,10 @@ package io.peekandpoke.kraft.examples.helloworld.pages
 import de.peekandpoke.kraft.components.NoProps
 import de.peekandpoke.kraft.components.PureComponent
 import de.peekandpoke.kraft.components.comp
-import de.peekandpoke.kraft.semanticui.noui
-import de.peekandpoke.kraft.semanticui.ui
+import de.peekandpoke.kraft.routing.href
 import de.peekandpoke.kraft.vdom.VDom
+import de.peekandpoke.ultra.semanticui.noui
+import de.peekandpoke.ultra.semanticui.ui
 import io.peekandpoke.kraft.examples.helloworld.routes
 import kotlinx.html.Tag
 import kotlinx.html.a
@@ -36,7 +37,7 @@ class HomePage(ctx: NoProps) : PureComponent(ctx) {
         ui.link.cards {
 
             noui.card A {
-                href = routes.agifyIo()
+                href(routes.agifyIo())
                 noui.image {
                     ui.small.image Img {
                         src = "http://i.ytimg.com/vi/PlV_q_bpOCE/maxresdefault.jpg"
@@ -49,7 +50,7 @@ class HomePage(ctx: NoProps) : PureComponent(ctx) {
             }
 
             noui.card A {
-                href = routes.catFactNinja()
+                href(routes.catFactNinja())
                 noui.image {
                     ui.small.image Img {
                         src =

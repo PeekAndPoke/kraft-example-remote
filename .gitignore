@@ -9,6 +9,7 @@
 /.idea/modules
 dataSources.ids
 datasources.xml
+/.kotlin
 
 !buildSrc
 .gradle

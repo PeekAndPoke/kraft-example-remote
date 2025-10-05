@@ -5,7 +5,6 @@ import de.peekandpoke.ultra.common.remote.TypedApiEndpoint
 import de.peekandpoke.ultra.common.remote.call
 import kotlinx.coroutines.flow.Flow
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.json.Json
 
 class CatFactNinja {

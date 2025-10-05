@@ -1,5 +1,7 @@
+import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig
+
 plugins {
-    kotlin("js")
+    kotlin("multiplatform")
     id("org.jetbrains.kotlin.plugin.serialization") version Deps.kotlinVersion
 }
 
@@ -8,23 +10,30 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
-
-    // KotlinX
-    maven("https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven")
-
+//    maven("https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven")
+//
     mavenLocal()
 }
 
-dependencies {
-    api(Deps.ultra_common_mp)
-    api(Deps.kraft_core)
-}
-
 kotlin {
-    js(IR) {
+    js {
         browser {
-        }
+            binaries.executable()
 
-        binaries.executable()
+            // Add webpack configuration
+            commonWebpackConfig {
+                devServer = (devServer ?: KotlinWebpackConfig.DevServer()).copy(
+                    port = 55002
+                )
+            }
+        }
+    }
+
+    sourceSets {
+        jsMain {
+            dependencies {
+                implementation(Deps.KotlinLibs.Kraft.semanticui)
+            }
+        }
     }
 }

@@ -32,6 +32,7 @@ kotlin {
     sourceSets {
         jsMain {
             dependencies {
+                implementation(Deps.KotlinLibs.Ultra.remote)
                 implementation(Deps.KotlinLibs.Kraft.semanticui)
             }
         }

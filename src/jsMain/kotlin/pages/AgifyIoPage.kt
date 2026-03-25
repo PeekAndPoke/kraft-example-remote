@@ -1,14 +1,14 @@
 package io.peekandpoke.kraft.examples.helloworld.pages
 
-import de.peekandpoke.kraft.components.NoProps
-import de.peekandpoke.kraft.components.PureComponent
-import de.peekandpoke.kraft.components.comp
-import de.peekandpoke.kraft.semanticui.forms.UiInputField
-import de.peekandpoke.kraft.utils.launch
-import de.peekandpoke.kraft.vdom.VDom
-import de.peekandpoke.ultra.html.onClick
-import de.peekandpoke.ultra.semanticui.ui
+import io.peekandpoke.kraft.components.NoProps
+import io.peekandpoke.kraft.components.PureComponent
+import io.peekandpoke.kraft.components.comp
 import io.peekandpoke.kraft.examples.helloworld.apis.agifyio.AgifyIo
+import io.peekandpoke.kraft.semanticui.forms.UiInputField
+import io.peekandpoke.kraft.utils.launch
+import io.peekandpoke.kraft.vdom.VDom
+import io.peekandpoke.ultra.html.onClick
+import io.peekandpoke.ultra.semanticui.ui
 import kotlinx.html.*
 
 @Suppress("FunctionName")

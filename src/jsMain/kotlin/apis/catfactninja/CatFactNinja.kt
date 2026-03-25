@@ -1,8 +1,8 @@
 package io.peekandpoke.kraft.examples.helloworld.apis.catfactninja
 
-import de.peekandpoke.ultra.common.remote.ApiClient
-import de.peekandpoke.ultra.common.remote.TypedApiEndpoint
-import de.peekandpoke.ultra.common.remote.call
+import io.peekandpoke.ultra.remote.ApiClient
+import io.peekandpoke.ultra.remote.TypedApiEndpoint
+import io.peekandpoke.ultra.remote.call
 import kotlinx.coroutines.flow.Flow
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json

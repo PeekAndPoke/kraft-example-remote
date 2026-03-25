@@ -1,9 +1,9 @@
 package io.peekandpoke.kraft.examples.helloworld
 
-import de.peekandpoke.kraft.kraftApp
-import de.peekandpoke.kraft.semanticui.semanticUI
-import de.peekandpoke.kraft.vdom.preact.PreactVDomEngine
 import io.peekandpoke.kraft.examples.helloworld.pages.NotFoundPage
+import io.peekandpoke.kraft.kraftApp
+import io.peekandpoke.kraft.semanticui.semanticUI
+import io.peekandpoke.kraft.vdom.preact.PreactVDomEngine
 
 val routes = Routes()
 

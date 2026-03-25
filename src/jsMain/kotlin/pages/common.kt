@@ -1,9 +1,9 @@
 package io.peekandpoke.kraft.examples.helloworld.pages
 
-import de.peekandpoke.kraft.routing.href
-import de.peekandpoke.ultra.semanticui.icon
-import de.peekandpoke.ultra.semanticui.ui
 import io.peekandpoke.kraft.examples.helloworld.routes
+import io.peekandpoke.kraft.routing.href
+import io.peekandpoke.ultra.semanticui.icon
+import io.peekandpoke.ultra.semanticui.ui
 import kotlinx.html.FlowContent
 
 fun FlowContent.renderBackButton() {

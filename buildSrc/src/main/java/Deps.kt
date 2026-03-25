@@ -10,11 +10,11 @@ object Deps {
     }
 
     // Kotlin ////////////////////////////////////////////////////////////////////////////////////
-    const val kotlinVersion = "2.2.20"
+    const val kotlinVersion = "2.3.10"
 
     object Ksp {
         // https://github.com/google/ksp/releases
-        const val version = "2.2.20-2.0.3"
+        const val version = "2.3.6"
         const val symbol_processing = "com.google.devtools.ksp:symbol-processing-api:$version"
 
         // https://mvnrepository.com/artifact/com.github.tschuchortdev/kotlin-compile-testing
@@ -42,14 +42,21 @@ object Deps {
 
     object KotlinLibs {
         // https://central.sonatype.com/artifact/io.peekandpoke.ultra/common
-        private const val ultra_version = "0.96.2"
+        private const val ultra_version = "0.102.0"
 
         object Ultra {
+            const val cache = "io.peekandpoke.ultra:cache:$ultra_version"
             const val common = "io.peekandpoke.ultra:common:$ultra_version"
+            const val datetime = "io.peekandpoke.ultra:datetime:$ultra_version"
+            const val fixture = "io.peekandpoke.ultra:fixture:$ultra_version"
             const val html = "io.peekandpoke.ultra:html:$ultra_version"
-            const val logging = "io.peekandpoke.ultra:logging:$ultra_version"
             const val kontainer = "io.peekandpoke.ultra:kontainer:$ultra_version"
+            const val log = "io.peekandpoke.ultra:log:$ultra_version"
+            const val maths = "io.peekandpoke.ultra:maths:$ultra_version"
             const val meta = "io.peekandpoke.ultra:meta:$ultra_version"
+            const val model = "io.peekandpoke.ultra:model:$ultra_version"
+            const val reflection = "io.peekandpoke.ultra:reflection:$ultra_version"
+            const val remote = "io.peekandpoke.ultra:remote:$ultra_version"
             const val security = "io.peekandpoke.ultra:security:$ultra_version"
             const val semanticui = "io.peekandpoke.ultra:semanticui:$ultra_version"
             const val slumber = "io.peekandpoke.ultra:slumber:$ultra_version"

@@ -60,7 +60,7 @@ object Deps {
             const val security = "io.peekandpoke.ultra:security:$ultra_version"
             const val semanticui = "io.peekandpoke.ultra:semanticui:$ultra_version"
             const val slumber = "io.peekandpoke.ultra:slumber:$ultra_version"
-            const val streams = "io.peekandpoke.ultra:streams:$ultra_version"
+            const val streams = "io.peekandpoke.ultra:stream:$ultra_version"
             const val vault = "io.peekandpoke.ultra:vault:$ultra_version"
         }
 
